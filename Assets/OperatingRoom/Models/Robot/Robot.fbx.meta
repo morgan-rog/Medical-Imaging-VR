@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: 0caaa1a80cbd2d84aaca508bc935d6c9
+timeCreated: 1458590056
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group46
+    100002: group46 1
+    100004: group46 2
+    100006: group46 3
+    100008: group47
+    100010: group47 1
+    100012: group47 2
+    100014: group47 3
+    100016: group48
+    100018: group48 1
+    100020: group48 2
+    100022: group48 3
+    100024: group49
+    100026: group49 1
+    100028: group49 2
+    100030: group49 3
+    100032: group50
+    100034: group50 1
+    100036: group50 2
+    100038: group50 3
+    100040: group51
+    100042: group51 1
+    100044: group51 2
+    100046: group51 3
+    100048: polySurface303
+    100050: polySurface303 1
+    100052: polySurface303 2
+    100054: polySurface303 3
+    100056: polySurface304
+    100058: polySurface304 1
+    100060: polySurface304 2
+    100062: polySurface304 3
+    100064: polySurface305
+    100066: polySurface305 1
+    100068: polySurface305 2
+    100070: polySurface305 3
+    100072: polySurface306
+    100074: polySurface306 1
+    100076: polySurface306 2
+    100078: polySurface306 3
+    100080: polySurface307
+    100082: polySurface307 1
+    100084: polySurface307 2
+    100086: polySurface307 3
+    100088: polySurface308
+    100090: polySurface308 1
+    100092: polySurface308 2
+    100094: polySurface308 3
+    100096: polySurface309
+    100098: polySurface309 1
+    100100: polySurface309 2
+    100102: polySurface309 3
+    100104: polySurface310
+    100106: polySurface310 1
+    100108: polySurface310 2
+    100110: polySurface310 3
+    100112: polySurface521
+    100114: polySurface521 1
+    100116: polySurface521 2
+    100118: polySurface521 3
+    100120: polySurface522
+    100122: polySurface522 1
+    100124: polySurface522 2
+    100126: polySurface522 3
+    100128: polySurface523
+    100130: polySurface523 1
+    100132: polySurface523 2
+    100134: polySurface523 3
+    100136: polySurface524
+    100138: polySurface524 1
+    100140: polySurface524 2
+    100142: polySurface524 3
+    100144: polySurface525
+    100146: polySurface525 1
+    100148: polySurface525 2
+    100150: polySurface525 3
+    100152: polySurface526
+    100154: polySurface526 1
+    100156: polySurface526 2
+    100158: polySurface526 3
+    100160: polySurface527
+    100162: polySurface527 1
+    100164: polySurface527 2
+    100166: polySurface527 3
+    100168: polySurface528
+    100170: polySurface528 1
+    100172: polySurface528 2
+    100174: polySurface528 3
+    100176: //RootNode
+    100178: RobotArm1
+    100180: RobotArm2
+    100182: RobotArm3
+    100184: RobotArm4
+    100186: RobotBase
+    100188: RobotConnector
+    100190: RobotNeck
+    100192: transform48
+    100194: transform48 1
+    100196: transform48 2
+    100198: transform48 3
+    100200: transform49
+    100202: transform49 1
+    100204: transform49 2
+    100206: transform49 3
+    100208: transform50
+    100210: transform50 1
+    100212: transform50 2
+    100214: transform50 3
+    100216: transform51
+    100218: transform51 1
+    100220: transform51 2
+    100222: transform51 3
+    100224: transform52
+    100226: transform52 1
+    100228: transform52 2
+    100230: transform52 3
+    100232: transform53
+    100234: transform53 1
+    100236: transform53 2
+    100238: transform53 3
+    100240: transform54
+    100242: transform54 1
+    100244: transform54 2
+    100246: transform54 3
+    100248: RobotTopw
+    100250: Arm1
+    100252: Arm2
+    100254: Arm3
+    100256: Arm4
+    100258: Arm_grp1
+    100260: Arm_grp1 1
+    100262: Arm_grp1 2
+    100264: Arm_grp1 3
+    100266: ArmGrp2
+    100268: ArmGrp2 1
+    100270: ArmGrp2 2
+    100272: ArmGrp2 3
+    100274: ArmGrp3
+    100276: ArmGrp3 1
+    100278: ArmGrp3 2
+    100280: ArmGrp3 3
+    100282: ArmGrp4
+    100284: ArmGrp4 1
+    100286: ArmGrp4 2
+    100288: ArmGrp4 3
+    100290: ArmGrp5
+    100292: ArmGrp5 1
+    100294: ArmGrp5 2
+    100296: ArmGrp5 3
+    100298: ArmGrp6
+    100300: ArmGrp6 1
+    100302: ArmGrp6 2
+    100304: ArmGrp6 3
+    100306: ArmPiece1
+    100308: ArmPiece1 1
+    100310: ArmPiece1 2
+    100312: ArmPiece1 3
+    100314: ArmPiece2
+    100316: ArmPiece2 1
+    100318: ArmPiece2 2
+    100320: ArmPiece2 3
+    100322: ArmPiece3
+    100324: ArmPiece3 1
+    100326: ArmPiece3 2
+    100328: ArmPiece3 3
+    100330: ArmPiece4
+    100332: ArmPiece4 1
+    100334: ArmPiece4 2
+    100336: ArmPiece4 3
+    100338: ArmPiece5
+    100340: ArmPiece5 1
+    100342: ArmPiece5 2
+    100344: ArmPiece5 3
+    100346: ArmPiece6
+    100348: ArmPiece6 1
+    100350: ArmPiece6 2
+    100352: ArmPiece6 3
+    100354: ArmPiece7
+    100356: ArmPiece7 1
+    100358: ArmPiece7 2
+    100360: ArmPiece7 3
+    100362: ArmPiece8
+    100364: ArmPiece8 1
+    100366: ArmPiece8 2
+    100368: ArmPiece8 3
+    100370: Arms
+    100372: RobotNeck_grp
+    100374: RobotNeedle
+    100376: RobotNeedle 1
+    100378: RobotNeedle 2
+    100380: RobotNeedle 3
+    100382: RobotTop
+    400000: group46
+    400002: group46 1
+    400004: group46 2
+    400006: group46 3
+    400008: group47
+    400010: group47 1
+    400012: group47 2
+    400014: group47 3
+    400016: group48
+    400018: group48 1
+    400020: group48 2
+    400022: group48 3
+    400024: group49
+    400026: group49 1
+    400028: group49 2
+    400030: group49 3
+    400032: group50
+    400034: group50 1
+    400036: group50 2
+    400038: group50 3
+    400040: group51
+    400042: group51 1
+    400044: group51 2
+    400046: group51 3
+    400048: polySurface303
+    400050: polySurface303 1
+    400052: polySurface303 2
+    400054: polySurface303 3
+    400056: polySurface304
+    400058: polySurface304 1
+    400060: polySurface304 2
+    400062: polySurface304 3
+    400064: polySurface305
+    400066: polySurface305 1
+    400068: polySurface305 2
+    400070: polySurface305 3
+    400072: polySurface306
+    400074: polySurface306 1
+    400076: polySurface306 2
+    400078: polySurface306 3
+    400080: polySurface307
+    400082: polySurface307 1
+    400084: polySurface307 2
+    400086: polySurface307 3
+    400088: polySurface308
+    400090: polySurface308 1
+    400092: polySurface308 2
+    400094: polySurface308 3
+    400096: polySurface309
+    400098: polySurface309 1
+    400100: polySurface309 2
+    400102: polySurface309 3
+    400104: polySurface310
+    400106: polySurface310 1
+    400108: polySurface310 2
+    400110: polySurface310 3
+    400112: polySurface521
+    400114: polySurface521 1
+    400116: polySurface521 2
+    400118: polySurface521 3
+    400120: polySurface522
+    400122: polySurface522 1
+    400124: polySurface522 2
+    400126: polySurface522 3
+    400128: polySurface523
+    400130: polySurface523 1
+    400132: polySurface523 2
+    400134: polySurface523 3
+    400136: polySurface524
+    400138: polySurface524 1
+    400140: polySurface524 2
+    400142: polySurface524 3
+    400144: polySurface525
+    400146: polySurface525 1
+    400148: polySurface525 2
+    400150: polySurface525 3
+    400152: polySurface526
+    400154: polySurface526 1
+    400156: polySurface526 2
+    400158: polySurface526 3
+    400160: polySurface527
+    400162: polySurface527 1
+    400164: polySurface527 2
+    400166: polySurface527 3
+    400168: polySurface528
+    400170: polySurface528 1
+    400172: polySurface528 2
+    400174: polySurface528 3
+    400176: //RootNode
+    400178: RobotArm1
+    400180: RobotArm2
+    400182: RobotArm3
+    400184: RobotArm4
+    400186: RobotBase
+    400188: RobotConnector
+    400190: RobotNeck
+    400192: transform48
+    400194: transform48 1
+    400196: transform48 2
+    400198: transform48 3
+    400200: transform49
+    400202: transform49 1
+    400204: transform49 2
+    400206: transform49 3
+    400208: transform50
+    400210: transform50 1
+    400212: transform50 2
+    400214: transform50 3
+    400216: transform51
+    400218: transform51 1
+    400220: transform51 2
+    400222: transform51 3
+    400224: transform52
+    400226: transform52 1
+    400228: transform52 2
+    400230: transform52 3
+    400232: transform53
+    400234: transform53 1
+    400236: transform53 2
+    400238: transform53 3
+    400240: transform54
+    400242: transform54 1
+    400244: transform54 2
+    400246: transform54 3
+    400248: RobotTopw
+    400250: Arm1
+    400252: Arm2
+    400254: Arm3
+    400256: Arm4
+    400258: Arm_grp1
+    400260: Arm_grp1 1
+    400262: Arm_grp1 2
+    400264: Arm_grp1 3
+    400266: ArmGrp2
+    400268: ArmGrp2 1
+    400270: ArmGrp2 2
+    400272: ArmGrp2 3
+    400274: ArmGrp3
+    400276: ArmGrp3 1
+    400278: ArmGrp3 2
+    400280: ArmGrp3 3
+    400282: ArmGrp4
+    400284: ArmGrp4 1
+    400286: ArmGrp4 2
+    400288: ArmGrp4 3
+    400290: ArmGrp5
+    400292: ArmGrp5 1
+    400294: ArmGrp5 2
+    400296: ArmGrp5 3
+    400298: ArmGrp6
+    400300: ArmGrp6 1
+    400302: ArmGrp6 2
+    400304: ArmGrp6 3
+    400306: ArmPiece1
+    400308: ArmPiece1 1
+    400310: ArmPiece1 2
+    400312: ArmPiece1 3
+    400314: ArmPiece2
+    400316: ArmPiece2 1
+    400318: ArmPiece2 2
+    400320: ArmPiece2 3
+    400322: ArmPiece3
+    400324: ArmPiece3 1
+    400326: ArmPiece3 2
+    400328: ArmPiece3 3
+    400330: ArmPiece4
+    400332: ArmPiece4 1
+    400334: ArmPiece4 2
+    400336: ArmPiece4 3
+    400338: ArmPiece5
+    400340: ArmPiece5 1
+    400342: ArmPiece5 2
+    400344: ArmPiece5 3
+    400346: ArmPiece6
+    400348: ArmPiece6 1
+    400350: ArmPiece6 2
+    400352: ArmPiece6 3
+    400354: ArmPiece7
+    400356: ArmPiece7 1
+    400358: ArmPiece7 2
+    400360: ArmPiece7 3
+    400362: ArmPiece8
+    400364: ArmPiece8 1
+    400366: ArmPiece8 2
+    400368: ArmPiece8 3
+    400370: Arms
+    400372: RobotNeck_grp
+    400374: RobotNeedle
+    400376: RobotNeedle 1
+    400378: RobotNeedle 2
+    400380: RobotNeedle 3
+    400382: RobotTop
+    2300000: polySurface303
+    2300002: polySurface303 1
+    2300004: polySurface303 2
+    2300006: polySurface303 3
+    2300008: polySurface304
+    2300010: polySurface304 1
+    2300012: polySurface304 2
+    2300014: polySurface304 3
+    2300016: polySurface305
+    2300018: polySurface305 1
+    2300020: polySurface305 2
+    2300022: polySurface305 3
+    2300024: polySurface306
+    2300026: polySurface306 1
+    2300028: polySurface306 2
+    2300030: polySurface306 3
+    2300032: polySurface307
+    2300034: polySurface307 1
+    2300036: polySurface307 2
+    2300038: polySurface307 3
+    2300040: polySurface308
+    2300042: polySurface308 1
+    2300044: polySurface308 2
+    2300046: polySurface308 3
+    2300048: polySurface309
+    2300050: polySurface309 1
+    2300052: polySurface309 2
+    2300054: polySurface309 3
+    2300056: polySurface310
+    2300058: polySurface310 1
+    2300060: polySurface310 2
+    2300062: polySurface310 3
+    2300064: polySurface521
+    2300066: polySurface521 1
+    2300068: polySurface521 2
+    2300070: polySurface521 3
+    2300072: RobotBase
+    2300074: RobotConnector
+    2300076: RobotNeck
+    2300078: ArmPiece1
+    2300080: ArmPiece1 1
+    2300082: ArmPiece1 2
+    2300084: ArmPiece1 3
+    2300086: ArmPiece2
+    2300088: ArmPiece2 1
+    2300090: ArmPiece2 2
+    2300092: ArmPiece2 3
+    2300094: ArmPiece3
+    2300096: ArmPiece3 1
+    2300098: ArmPiece3 2
+    2300100: ArmPiece3 3
+    2300102: ArmPiece4
+    2300104: ArmPiece4 1
+    2300106: ArmPiece4 2
+    2300108: ArmPiece4 3
+    2300110: ArmPiece5
+    2300112: ArmPiece5 1
+    2300114: ArmPiece5 2
+    2300116: ArmPiece5 3
+    2300118: ArmPiece6
+    2300120: ArmPiece6 1
+    2300122: ArmPiece6 2
+    2300124: ArmPiece6 3
+    2300126: ArmPiece7
+    2300128: ArmPiece7 1
+    2300130: ArmPiece7 2
+    2300132: ArmPiece7 3
+    2300134: ArmPiece8
+    2300136: ArmPiece8 1
+    2300138: ArmPiece8 2
+    2300140: ArmPiece8 3
+    2300142: RobotNeedle
+    2300144: RobotNeedle 1
+    2300146: RobotNeedle 2
+    2300148: RobotNeedle 3
+    3300000: polySurface303
+    3300002: polySurface303 1
+    3300004: polySurface303 2
+    3300006: polySurface303 3
+    3300008: polySurface304
+    3300010: polySurface304 1
+    3300012: polySurface304 2
+    3300014: polySurface304 3
+    3300016: polySurface305
+    3300018: polySurface305 1
+    3300020: polySurface305 2
+    3300022: polySurface305 3
+    3300024: polySurface306
+    3300026: polySurface306 1
+    3300028: polySurface306 2
+    3300030: polySurface306 3
+    3300032: polySurface307
+    3300034: polySurface307 1
+    3300036: polySurface307 2
+    3300038: polySurface307 3
+    3300040: polySurface308
+    3300042: polySurface308 1
+    3300044: polySurface308 2
+    3300046: polySurface308 3
+    3300048: polySurface309
+    3300050: polySurface309 1
+    3300052: polySurface309 2
+    3300054: polySurface309 3
+    3300056: polySurface310
+    3300058: polySurface310 1
+    3300060: polySurface310 2
+    3300062: polySurface310 3
+    3300064: polySurface521
+    3300066: polySurface521 1
+    3300068: polySurface521 2
+    3300070: polySurface521 3
+    3300072: RobotBase
+    3300074: RobotConnector
+    3300076: RobotNeck
+    3300078: ArmPiece1
+    3300080: ArmPiece1 1
+    3300082: ArmPiece1 2
+    3300084: ArmPiece1 3
+    3300086: ArmPiece2
+    3300088: ArmPiece2 1
+    3300090: ArmPiece2 2
+    3300092: ArmPiece2 3
+    3300094: ArmPiece3
+    3300096: ArmPiece3 1
+    3300098: ArmPiece3 2
+    3300100: ArmPiece3 3
+    3300102: ArmPiece4
+    3300104: ArmPiece4 1
+    3300106: ArmPiece4 2
+    3300108: ArmPiece4 3
+    3300110: ArmPiece5
+    3300112: ArmPiece5 1
+    3300114: ArmPiece5 2
+    3300116: ArmPiece5 3
+    3300118: ArmPiece6
+    3300120: ArmPiece6 1
+    3300122: ArmPiece6 2
+    3300124: ArmPiece6 3
+    3300126: ArmPiece7
+    3300128: ArmPiece7 1
+    3300130: ArmPiece7 2
+    3300132: ArmPiece7 3
+    3300134: ArmPiece8
+    3300136: ArmPiece8 1
+    3300138: ArmPiece8 2
+    3300140: ArmPiece8 3
+    3300142: RobotNeedle
+    3300144: RobotNeedle 1
+    3300146: RobotNeedle 2
+    3300148: RobotNeedle 3
+    4300000: polySurface310
+    4300002: polySurface521
+    4300004: polySurface309
+    4300006: polySurface308
+    4300008: polySurface307
+    4300010: polySurface306
+    4300012: polySurface305
+    4300014: polySurface303
+    4300016: polySurface304
+    4300018: polySurface310
+    4300020: polySurface521
+    4300022: polySurface309
+    4300024: polySurface308
+    4300026: polySurface307
+    4300028: polySurface306
+    4300030: polySurface305
+    4300032: polySurface303
+    4300034: polySurface304
+    4300036: polySurface310
+    4300038: polySurface521
+    4300040: polySurface309
+    4300042: polySurface308
+    4300044: polySurface307
+    4300046: polySurface306
+    4300048: polySurface305
+    4300050: polySurface303
+    4300052: polySurface304
+    4300054: polySurface310
+    4300056: polySurface521
+    4300058: polySurface309
+    4300060: polySurface308
+    4300062: polySurface307
+    4300064: polySurface306
+    4300066: polySurface305
+    4300068: polySurface303
+    4300070: polySurface304
+    4300072: RobotNeck
+    4300074: RobotConnector
+    4300076: RobotBase
+    4300078: RobotNeedle
+    4300080: ArmPiece1
+    4300082: ArmPiece2
+    4300084: ArmPiece3
+    4300086: ArmPiece4
+    4300088: ArmPiece5
+    4300090: ArmPiece6
+    4300092: ArmPiece7
+    4300094: ArmPiece8
+    4300096: RobotNeedle
+    4300098: ArmPiece1
+    4300100: ArmPiece2
+    4300102: ArmPiece3
+    4300104: ArmPiece4
+    4300106: ArmPiece5
+    4300108: ArmPiece6
+    4300110: ArmPiece7
+    4300112: ArmPiece8
+    4300114: RobotNeedle
+    4300116: ArmPiece1
+    4300118: ArmPiece2
+    4300120: ArmPiece3
+    4300122: ArmPiece4
+    4300124: ArmPiece5
+    4300126: ArmPiece6
+    4300128: ArmPiece7
+    4300130: ArmPiece8
+    4300132: RobotNeedle
+    4300134: ArmPiece1
+    4300136: ArmPiece2
+    4300138: ArmPiece3
+    4300140: ArmPiece4
+    4300142: ArmPiece5
+    4300144: ArmPiece6
+    4300146: ArmPiece7
+    4300148: ArmPiece8
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

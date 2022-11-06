@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: e4138d97006f4534fa4e676f0aad4b2a
+timeCreated: 1458598770
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DeliveryCart
+    100004: DeliveryCartShaft1
+    100006: DeliveryCartShaft2
+    100008: DeliveryCartShaft3
+    100010: DeliveryCartShaft4
+    100012: DeliveryCartWheel1
+    100014: DeliveryCartWheel2
+    100016: DeliveryCartWheel3
+    100018: DeliveryCartWheel4
+    100020: DeliveryCartWheelGrp1
+    100022: DeliveryCartWheelGrp2
+    100024: DeliveryCartWheelGrp3
+    100026: DeliveryCartWheelGrp4
+    400000: DeliveryCart
+    400002: //RootNode
+    400004: DeliveryCartShaft1
+    400006: DeliveryCartShaft2
+    400008: DeliveryCartShaft3
+    400010: DeliveryCartShaft4
+    400012: DeliveryCartWheel1
+    400014: DeliveryCartWheel2
+    400016: DeliveryCartWheel3
+    400018: DeliveryCartWheel4
+    400020: DeliveryCartWheelGrp1
+    400022: DeliveryCartWheelGrp2
+    400024: DeliveryCartWheelGrp3
+    400026: DeliveryCartWheelGrp4
+    2300000: DeliveryCart
+    2300002: DeliveryCartShaft1
+    2300004: DeliveryCartShaft2
+    2300006: DeliveryCartShaft3
+    2300008: DeliveryCartShaft4
+    2300010: DeliveryCartWheel1
+    2300012: DeliveryCartWheel2
+    2300014: DeliveryCartWheel3
+    2300016: DeliveryCartWheel4
+    3300000: DeliveryCart
+    3300002: DeliveryCartShaft1
+    3300004: DeliveryCartShaft2
+    3300006: DeliveryCartShaft3
+    3300008: DeliveryCartShaft4
+    3300010: DeliveryCartWheel1
+    3300012: DeliveryCartWheel2
+    3300014: DeliveryCartWheel3
+    3300016: DeliveryCartWheel4
+    4300000: DeliveryCart
+    4300002: DeliveryCartWheel1
+    4300004: DeliveryCartShaft1
+    4300006: DeliveryCartWheel2
+    4300008: DeliveryCartShaft2
+    4300010: DeliveryCartWheel3
+    4300012: DeliveryCartShaft3
+    4300014: DeliveryCartWheel4
+    4300016: DeliveryCartShaft4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

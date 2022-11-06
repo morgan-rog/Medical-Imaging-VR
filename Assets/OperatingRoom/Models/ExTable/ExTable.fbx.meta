@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: aea43ab7e68a7c547a03981cf5f1e303
+timeCreated: 1458587481
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ExTableArm1
+    100004: ExTableArm2
+    100006: ExTableArm3
+    100008: ExTableBase
+    100010: ExTableCushion1
+    100012: ExTableCushion2
+    100014: ExTableCushion3
+    100016: ExTableCushion4
+    100018: group42
+    100020: group43
+    100022: group44
+    100024: group45
+    400000: //RootNode
+    400002: ExTableArm1
+    400004: ExTableArm2
+    400006: ExTableArm3
+    400008: ExTableBase
+    400010: ExTableCushion1
+    400012: ExTableCushion2
+    400014: ExTableCushion3
+    400016: ExTableCushion4
+    400018: group42
+    400020: group43
+    400022: group44
+    400024: group45
+    2300000: ExTableArm1
+    2300002: ExTableArm2
+    2300004: ExTableArm3
+    2300006: ExTableBase
+    2300008: ExTableCushion1
+    2300010: ExTableCushion2
+    2300012: ExTableCushion3
+    2300014: ExTableCushion4
+    3300000: ExTableArm1
+    3300002: ExTableArm2
+    3300004: ExTableArm3
+    3300006: ExTableBase
+    3300008: ExTableCushion1
+    3300010: ExTableCushion2
+    3300012: ExTableCushion3
+    3300014: ExTableCushion4
+    4300000: ExTableCushion1
+    4300002: ExTableArm3
+    4300004: ExTableCushion2
+    4300006: ExTableCushion3
+    4300008: ExTableCushion4
+    4300010: ExTableArm1
+    4300012: ExTableArm2
+    4300014: ExTableBase
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

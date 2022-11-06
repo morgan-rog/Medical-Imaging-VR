@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 9d531e5bea3277446aed090cde9c52cc
+timeCreated: 1458682780
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CartBodyGrp
+    100002: //RootNode
+    100004: CrashCartBody
+    100006: CrashCartPole
+    100008: CrashCartTank
+    100010: CrashCartTrashCan
+    100012: Drawer1
+    100014: Drawer2
+    100016: Drawer3
+    100018: Drawer4
+    100020: DrawersGrp
+    100022: Wheel1
+    100024: Wheel2
+    100026: Wheel3
+    100028: Wheel4
+    100030: WheelGrp1
+    100032: WheelGrp2
+    100034: WheelGrp3
+    100036: WheelGrp4
+    100038: WheelShaft1
+    100040: WheelShaft2
+    100042: WheelShaft3
+    100044: WheelShaft4
+    400000: CartBodyGrp
+    400002: //RootNode
+    400004: CrashCartBody
+    400006: CrashCartPole
+    400008: CrashCartTank
+    400010: CrashCartTrashCan
+    400012: Drawer1
+    400014: Drawer2
+    400016: Drawer3
+    400018: Drawer4
+    400020: DrawersGrp
+    400022: Wheel1
+    400024: Wheel2
+    400026: Wheel3
+    400028: Wheel4
+    400030: WheelGrp1
+    400032: WheelGrp2
+    400034: WheelGrp3
+    400036: WheelGrp4
+    400038: WheelShaft1
+    400040: WheelShaft2
+    400042: WheelShaft3
+    400044: WheelShaft4
+    2300000: CrashCartBody
+    2300002: CrashCartPole
+    2300004: CrashCartTank
+    2300006: CrashCartTrashCan
+    2300008: Drawer1
+    2300010: Drawer2
+    2300012: Drawer3
+    2300014: Drawer4
+    2300016: Wheel1
+    2300018: Wheel2
+    2300020: Wheel3
+    2300022: Wheel4
+    2300024: WheelShaft1
+    2300026: WheelShaft2
+    2300028: WheelShaft3
+    2300030: WheelShaft4
+    3300000: CrashCartBody
+    3300002: CrashCartPole
+    3300004: CrashCartTank
+    3300006: CrashCartTrashCan
+    3300008: Drawer1
+    3300010: Drawer2
+    3300012: Drawer3
+    3300014: Drawer4
+    3300016: Wheel1
+    3300018: Wheel2
+    3300020: Wheel3
+    3300022: Wheel4
+    3300024: WheelShaft1
+    3300026: WheelShaft2
+    3300028: WheelShaft3
+    3300030: WheelShaft4
+    4300000: Drawer1
+    4300002: Drawer2
+    4300004: Drawer3
+    4300006: Drawer4
+    4300008: CrashCartBody
+    4300010: CrashCartTrashCan
+    4300012: CrashCartTank
+    4300014: CrashCartPole
+    4300016: Wheel2
+    4300018: WheelShaft2
+    4300020: Wheel1
+    4300022: WheelShaft1
+    4300024: Wheel3
+    4300026: WheelShaft3
+    4300028: Wheel4
+    4300030: WheelShaft4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

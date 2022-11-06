@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 6d6a5ee66ad8b054e9dca19c9f772c1f
+timeCreated: 1458591986
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: L_WheelChairFoot
+    100002: L_WheelChairSmallWheel
+    100004: L_WheelChairWheel
+    100006: R_WheelChairFoot
+    100008: R_WheelChairSmallWheel
+    100010: R_WheelChairWheel
+    100012: //RootNode
+    100014: WheelChairGrp
+    100016: WheelChairSeat
+    100018: polySurface574
+    100020: polySurface575
+    100022: polySurface577
+    100024: polySurface578
+    100026: transform66
+    100028: transform67
+    100030: transform68
+    100032: transform69
+    100034: transform70
+    100036: transform71
+    100038: WheelChairFoot_L
+    100040: WheelChairFoot_R
+    100042: WheelChairWheel_L
+    100044: WheelChairWheel_R
+    100046: WheelChairWheelSmall_L
+    100048: WheelChairWheelSmall_L 1
+    100050: WheelChairWheelSmall_R
+    100052: WheelChairWheelSmall_R 1
+    100054: WheelChairWheelSmallGrp_L
+    100056: WheelChairWheelSmallGrp_L 1
+    100058: WheelChairWheelSmallGrp_L 2
+    100060: WheelChairWheelSmallGrp_R
+    400000: L_WheelChairFoot
+    400002: L_WheelChairSmallWheel
+    400004: L_WheelChairWheel
+    400006: R_WheelChairFoot
+    400008: R_WheelChairSmallWheel
+    400010: R_WheelChairWheel
+    400012: //RootNode
+    400014: WheelChairGrp
+    400016: WheelChairSeat
+    400018: polySurface574
+    400020: polySurface575
+    400022: polySurface577
+    400024: polySurface578
+    400026: transform66
+    400028: transform67
+    400030: transform68
+    400032: transform69
+    400034: transform70
+    400036: transform71
+    400038: WheelChairFoot_L
+    400040: WheelChairFoot_R
+    400042: WheelChairWheel_L
+    400044: WheelChairWheel_R
+    400046: WheelChairWheelSmall_L
+    400048: WheelChairWheelSmall_L 1
+    400050: WheelChairWheelSmall_R
+    400052: WheelChairWheelSmall_R 1
+    400054: WheelChairWheelSmallGrp_L
+    400056: WheelChairWheelSmallGrp_L 1
+    400058: WheelChairWheelSmallGrp_L 2
+    400060: WheelChairWheelSmallGrp_R
+    2300000: L_WheelChairFoot
+    2300002: L_WheelChairSmallWheel
+    2300004: L_WheelChairWheel
+    2300006: R_WheelChairFoot
+    2300008: R_WheelChairSmallWheel
+    2300010: R_WheelChairWheel
+    2300012: WheelChairSeat
+    2300014: polySurface575
+    2300016: polySurface578
+    2300018: WheelChairFoot_L
+    2300020: WheelChairFoot_R
+    2300022: WheelChairWheel_L
+    2300024: WheelChairWheel_R
+    2300026: WheelChairWheelSmall_L
+    2300028: WheelChairWheelSmall_R
+    3300000: L_WheelChairFoot
+    3300002: L_WheelChairSmallWheel
+    3300004: L_WheelChairWheel
+    3300006: R_WheelChairFoot
+    3300008: R_WheelChairSmallWheel
+    3300010: R_WheelChairWheel
+    3300012: WheelChairSeat
+    3300014: polySurface575
+    3300016: polySurface578
+    3300018: WheelChairFoot_L
+    3300020: WheelChairFoot_R
+    3300022: WheelChairWheel_L
+    3300024: WheelChairWheel_R
+    3300026: WheelChairWheelSmall_L
+    3300028: WheelChairWheelSmall_R
+    4300000: L_WheelChairWheel
+    4300002: R_WheelChairWheel
+    4300004: L_WheelChairSmallWheel
+    4300006: R_WheelChairSmallWheel
+    4300008: WheelChairSeat
+    4300010: R_WheelChairFoot
+    4300012: L_WheelChairFoot
+    4300014: WheelChairWheel_L
+    4300016: WheelChairWheel_R
+    4300018: WheelChairFoot_R
+    4300020: WheelChairFoot_L
+    4300022: WheelChairWheelSmall_L
+    4300024: polySurface578
+    4300026: WheelChairWheelSmall_R
+    4300028: polySurface575
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

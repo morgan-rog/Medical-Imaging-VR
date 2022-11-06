@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 5b328f59af8b14b49a742a5e2c33f6a6
+timeCreated: 1458599617
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ChairCushion
+    100004: ChairLegs
+    100006: ChairLegsGrp
+    100008: ChairWheel1
+    100010: ChairWheel1 1
+    100012: ChairWheel1 2
+    100014: ChairWheel1 3
+    100016: ChairWheel1 4
+    100018: ChairWheelGrp1
+    100020: ChairWheelGrp2
+    100022: ChairWheelGrp3
+    100024: ChairWheelGrp4
+    100026: ChairWheelGrp5
+    100028: ChairWheelShaft1
+    100030: ChairWheelShaft1 1
+    100032: ChairWheelShaft1 2
+    100034: ChairWheelShaft1 3
+    100036: ChairWheelShaft1 4
+    400000: //RootNode
+    400002: ChairCushion
+    400004: ChairLegs
+    400006: ChairLegsGrp
+    400008: ChairWheel1
+    400010: ChairWheel1 1
+    400012: ChairWheel1 2
+    400014: ChairWheel1 3
+    400016: ChairWheel1 4
+    400018: ChairWheelGrp1
+    400020: ChairWheelGrp2
+    400022: ChairWheelGrp3
+    400024: ChairWheelGrp4
+    400026: ChairWheelGrp5
+    400028: ChairWheelShaft1
+    400030: ChairWheelShaft1 1
+    400032: ChairWheelShaft1 2
+    400034: ChairWheelShaft1 3
+    400036: ChairWheelShaft1 4
+    2300000: ChairCushion
+    2300002: ChairLegs
+    2300004: ChairWheel1
+    2300006: ChairWheel1 1
+    2300008: ChairWheel1 2
+    2300010: ChairWheel1 3
+    2300012: ChairWheel1 4
+    2300014: ChairWheelShaft1
+    2300016: ChairWheelShaft1 1
+    2300018: ChairWheelShaft1 2
+    2300020: ChairWheelShaft1 3
+    2300022: ChairWheelShaft1 4
+    3300000: ChairCushion
+    3300002: ChairLegs
+    3300004: ChairWheel1
+    3300006: ChairWheel1 1
+    3300008: ChairWheel1 2
+    3300010: ChairWheel1 3
+    3300012: ChairWheel1 4
+    3300014: ChairWheelShaft1
+    3300016: ChairWheelShaft1 1
+    3300018: ChairWheelShaft1 2
+    3300020: ChairWheelShaft1 3
+    3300022: ChairWheelShaft1 4
+    4300000: ChairWheel1
+    4300002: ChairWheelShaft1
+    4300004: ChairWheel1
+    4300006: ChairWheelShaft1
+    4300008: ChairWheel1
+    4300010: ChairWheelShaft1
+    4300012: ChairWheel1
+    4300014: ChairWheelShaft1
+    4300016: ChairWheel1
+    4300018: ChairWheelShaft1
+    4300020: ChairLegs
+    4300022: ChairCushion
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
