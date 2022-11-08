@@ -5,6 +5,7 @@ using UnityEngine;
 public class PatientObjectManager : MonoBehaviour
 {
     //private GameObject theOrgan;
+    //public bool isInteractionActive = false;
    
     public void ToggleActivation(GameObject theOrgan){
         Debug.Log("toggle activation");
@@ -15,15 +16,20 @@ public class PatientObjectManager : MonoBehaviour
         else
         {
             theOrgan.SetActive(true);
-        }
-         
+        } 
     }
 
-    public void ToggleMovementToTable(GameObject theOrgan)
+    /*public void setIsInteractionActive(bool value)
     {
+        isInteractionActive = value;
+    }*/
+
+    /*public void ToggleMovementToTable(GameObject theOrgan)
+    {
+
         MoveToTablePosition organTablePosScript = theOrgan.GetComponent<MoveToTablePosition>();
 
         organTablePosScript.setIsSelectedToTrue();
-    }
+    }*/
 
 }
