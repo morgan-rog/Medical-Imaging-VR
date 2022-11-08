@@ -18,4 +18,12 @@ public class PatientObjectManager : MonoBehaviour
         }
          
     }
+
+    public void ToggleMovementToTable(GameObject theOrgan)
+    {
+        MoveToTablePosition organTablePosScript = theOrgan.GetComponent<MoveToTablePosition>();
+
+        organTablePosScript.setIsSelectedToTrue();
+    }
+
 }
