@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class MoveToTablePosition : MonoBehaviour
 {
+    // manually set
     public GameObject objectCopy;
-    
+    public GameObject descriptionMenu;
+
     public float moveSpeed = 1.0f;
     private bool isSelected = false;
     private bool isAtTable = false;
 
+    // automatically set at awake
     public GameObject tableManager;
     public Transform tableTarget;
     public Transform bedTarget;
+    
 
     void Awake()
     {
@@ -33,7 +37,7 @@ public class MoveToTablePosition : MonoBehaviour
             {
                 objectCopy.SetActive(false);
                 gameObject.SetActive(true);
-
+                descriptionMenu.SetActive(false);
             }
             isSelected = true;
         }
@@ -45,6 +49,7 @@ public class MoveToTablePosition : MonoBehaviour
         TableObjectManager tableObjectmanager = tableManager.GetComponent<TableObjectManager>();
         tableObjectmanager.setNameOfActiveObject("none");
     }
+
 
     // Update is called once per frame
     void Update()
@@ -68,6 +73,8 @@ public class MoveToTablePosition : MonoBehaviour
             isAtTable = true;
             isSelected = false;
             gameObject.SetActive(false);
+
+            descriptionMenu.SetActive(true);
 
             objectCopy.transform.position = tableTarget.transform.position;
             objectCopy.transform.GetChild(0).transform.position = tableTarget.transform.position;
