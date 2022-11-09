@@ -24,7 +24,7 @@ public class MoveToTablePosition : MonoBehaviour
 
     public void setIsSelectedToTrue()
     {
-        Debug.Log("object name: " + gameObject.name );
+        //Debug.Log("object name: " + gameObject.name );
         TableObjectManager tableObjectmanager = tableManager.GetComponent<TableObjectManager>();
         if(tableObjectmanager.getNameOfActiveObject() == "none" || tableObjectmanager.getNameOfActiveObject() == gameObject.name)
         {
@@ -32,6 +32,8 @@ public class MoveToTablePosition : MonoBehaviour
             if (isAtTable)
             {
                 objectCopy.SetActive(false);
+                gameObject.SetActive(true);
+
             }
             isSelected = true;
         }
@@ -50,30 +52,36 @@ public class MoveToTablePosition : MonoBehaviour
 
         if (isSelected && !isAtTable)
         {
-            gameObject.SetActive(true);
+            //gameObject.SetActive(true);
             float step = moveSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, tableTarget.position, step);
         }
         else if (isSelected && isAtTable)
         {
-            gameObject.SetActive(true);
+            //gameObject.SetActive(true);
             float step = moveSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, bedTarget.position, step);
         }
         // check if object is at table or bed
-        if (Vector3.Distance(transform.position, tableTarget.position) < 0.001f)
+        if ((isSelected) && (Vector3.Distance(transform.position, tableTarget.position) < 0.001f))
         {
             isAtTable = true;
             isSelected = false;
             gameObject.SetActive(false);
+
+            objectCopy.transform.position = tableTarget.transform.position;
+            objectCopy.transform.GetChild(0).transform.position = tableTarget.transform.position;
             objectCopy.SetActive(true);
         }
-        else if (Vector3.Distance(transform.position, bedTarget.position) < 0.001f)
+        else if ((isSelected) && (Vector3.Distance(transform.position, bedTarget.position) < 0.001f))
         {
             isAtTable = false;
             isSelected = false;
             gameObject.SetActive(true);
+
             objectCopy.SetActive(false);
+            objectCopy.transform.position = tableTarget.transform.position;
+            objectCopy.transform.GetChild(0).transform.position = tableTarget.transform.position;
             setTableObjectToEmpty();
         }
     }
