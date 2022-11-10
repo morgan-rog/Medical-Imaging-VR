@@ -2,19 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityVolumeRendering;
+using UnityEngine.UI;
+using TMPro;
 
 public class SetVisibleValueRange : MonoBehaviour
 {
-    public VolumeRenderedObject theVolObject;
+    public VolumeRenderedObject volObjectComponent;
+    public GameObject lowValueTextObject;
+    public GameObject highValueTextObject;
+
+    TextMeshProUGUI lowValueText;
+    TextMeshProUGUI highValueText;
+
     public float changeValueAmount = .1f;
     private float maxRange = 1.0f;
     private float minRange = 0.0f;
     private Vector2 valueRange;
 
+    void Start()
+    {
+        lowValueText = lowValueTextObject.GetComponent<TextMeshProUGUI>();
+        highValueText = highValueTextObject.GetComponent<TextMeshProUGUI>();
+
+        valueRange = volObjectComponent.GetVisibilityWindow();
+        UpdateText(valueRange.x, valueRange.y);
+    }
+
+    void Update()
+    {
+        valueRange = volObjectComponent.GetVisibilityWindow();
+        UpdateText(valueRange.x, valueRange.y);
+    }
+
+    private void UpdateText(float lowVal, float highVal) 
+    {
+        lowValueText.text = lowVal.ToString();
+        highValueText.text = highVal.ToString();
+    }
+
+
     public void IncreaseLowerValue()
     {
-        VolumeRenderedObject volObjectComponent = theVolObject.GetComponent<VolumeRenderedObject>();
-        valueRange = volObjectComponent.GetVisibilityWindow();
         if (valueRange.x > valueRange.y)
         {
             volObjectComponent.SetVisibilityWindow(minRange, valueRange.y);
@@ -27,8 +55,6 @@ public class SetVisibleValueRange : MonoBehaviour
     }
     public void DecreaseLowerValue()
     {
-        VolumeRenderedObject volObjectComponent = theVolObject.GetComponent<VolumeRenderedObject>();
-        valueRange = volObjectComponent.GetVisibilityWindow();
         if (valueRange.x < minRange)
         {
             volObjectComponent.SetVisibilityWindow(minRange, valueRange.y);
@@ -41,8 +67,6 @@ public class SetVisibleValueRange : MonoBehaviour
     }
     public void IncreaseHigherValue()
     {
-        VolumeRenderedObject volObjectComponent = theVolObject.GetComponent<VolumeRenderedObject>();
-        valueRange = volObjectComponent.GetVisibilityWindow();
         if (valueRange.y > maxRange)
         {
             volObjectComponent.SetVisibilityWindow(valueRange.x, maxRange);
@@ -55,8 +79,6 @@ public class SetVisibleValueRange : MonoBehaviour
     }
     public void DecreaseHigherValue()
     {
-        VolumeRenderedObject volObjectComponent = theVolObject.GetComponent<VolumeRenderedObject>();
-        valueRange = volObjectComponent.GetVisibilityWindow();
         if (valueRange.y < valueRange.x)
         {
             volObjectComponent.SetVisibilityWindow(valueRange.x, maxRange);
