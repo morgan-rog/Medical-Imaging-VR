@@ -78,6 +78,11 @@ public class MoveToTablePosition : MonoBehaviour
 
             objectCopy.transform.position = tableTarget.transform.position;
             objectCopy.transform.GetChild(0).transform.position = tableTarget.transform.position;
+            /*if (objectCopy.name == "Liver COPY")
+            {
+                objectCopy.transform.GetChild(1).transform.position = tableTarget.transform.position;
+                objectCopy.transform.GetChild(2).transform.position = tableTarget.transform.position;
+            }*/
             objectCopy.SetActive(true);
         }
         else if ((isSelected) && (Vector3.Distance(transform.position, bedTarget.position) < 0.001f))
@@ -89,6 +94,11 @@ public class MoveToTablePosition : MonoBehaviour
             objectCopy.SetActive(false);
             objectCopy.transform.position = tableTarget.transform.position;
             objectCopy.transform.GetChild(0).transform.position = tableTarget.transform.position;
+            /*if (objectCopy.name == "Liver COPY")
+            {
+                objectCopy.transform.GetChild(1).transform.position = tableTarget.transform.position;
+                objectCopy.transform.GetChild(2).transform.position = tableTarget.transform.position;
+            }*/
             setTableObjectToEmpty();
         }
     }
