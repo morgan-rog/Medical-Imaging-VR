@@ -10,6 +10,10 @@ public class SetRenderModeType : MonoBehaviour
     private UnityVolumeRendering.RenderMode directVol = UnityVolumeRendering.RenderMode.DirectVolumeRendering;
     private UnityVolumeRendering.RenderMode isoSurface = UnityVolumeRendering.RenderMode.IsosurfaceRendering;
 
+    private void Start()
+    {
+        theVolObject = gameObject.GetComponent<VolumeRenderedObject>();
+    }
 
     public void setRenderModeType(int option)
     {

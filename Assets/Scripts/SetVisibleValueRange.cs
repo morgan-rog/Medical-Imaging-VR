@@ -21,6 +21,7 @@ public class SetVisibleValueRange : MonoBehaviour
 
     void Start()
     {
+        volObjectComponent = gameObject.GetComponent<VolumeRenderedObject>();
         lowValueText = lowValueTextObject.GetComponent<TextMeshProUGUI>();
         highValueText = highValueTextObject.GetComponent<TextMeshProUGUI>();
 
