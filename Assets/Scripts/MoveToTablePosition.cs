@@ -7,6 +7,7 @@ public class MoveToTablePosition : MonoBehaviour
     // manually set
     public GameObject objectCopy;
     public GameObject descriptionMenu;
+    AudioSource textNarrationClip;
 
     public float moveSpeed = 1.0f;
     private bool isSelected = false;
@@ -24,6 +25,7 @@ public class MoveToTablePosition : MonoBehaviour
         tableManager = GameObject.Find("TableManager");
         tableTarget = GameObject.Find("TableManager").transform;
         bedTarget = GameObject.Find("BedPosition").transform;
+        textNarrationClip = descriptionMenu.GetComponent<AudioSource>();
     }
 
     public void setIsSelectedToTrue()
@@ -75,14 +77,11 @@ public class MoveToTablePosition : MonoBehaviour
             gameObject.SetActive(false);
 
             descriptionMenu.SetActive(true);
+            textNarrationClip.Play();
 
             objectCopy.transform.position = tableTarget.transform.position;
             objectCopy.transform.GetChild(0).transform.position = tableTarget.transform.position;
-            /*if (objectCopy.name == "Liver COPY")
-            {
-                objectCopy.transform.GetChild(1).transform.position = tableTarget.transform.position;
-                objectCopy.transform.GetChild(2).transform.position = tableTarget.transform.position;
-            }*/
+            
             objectCopy.SetActive(true);
         }
         else if ((isSelected) && (Vector3.Distance(transform.position, bedTarget.position) < 0.001f))
@@ -94,11 +93,7 @@ public class MoveToTablePosition : MonoBehaviour
             objectCopy.SetActive(false);
             objectCopy.transform.position = tableTarget.transform.position;
             objectCopy.transform.GetChild(0).transform.position = tableTarget.transform.position;
-            /*if (objectCopy.name == "Liver COPY")
-            {
-                objectCopy.transform.GetChild(1).transform.position = tableTarget.transform.position;
-                objectCopy.transform.GetChild(2).transform.position = tableTarget.transform.position;
-            }*/
+            
             setTableObjectToEmpty();
         }
     }
