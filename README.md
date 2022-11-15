@@ -1,5 +1,16 @@
 # Project for Hack-A-Roo Fall 2022
 
+##  VR_Hack-a-roo
+
+## team members:
+1. Saeed AlQarni
+2. Ahmed Albishri
+3. Morgan Rogers
+
+## team Name: 
+MedVR 
+
+## Our Usecase: 
 This VR project is geared toward the medical domain and is made with medical education in mind. This project contains segmented organs that are
 interactive 3D objects. The user can toggle which organs they see, choose organs to interact with, read and listen to descriptions about the organs,
 and change the transparency of the liver tissue to see cysts and tumors inside. This project also uses the [Unity Volume Rendering](https://github.com/mlavik1/UnityVolumeRendering) open source project to present CT scans in VR. 
