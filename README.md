@@ -1,6 +1,6 @@
 # Project for Hack-A-Roo Fall 2022
 
-##  VR_Hack-a-roo
+##  VR Hack-a-roo
 
 ## team members:
 1. Saeed AlQarni
