@@ -1,6 +1,6 @@
 # Project for Hack-A-Roo Fall 2022
 
-##  VR Hack-a-roo
+##  VR Hack-A-Roo
 
 ## Team members:
 1. Morgan Rogers
