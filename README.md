@@ -3,11 +3,11 @@
 ##  VR Hack-a-roo
 
 ## team members:
-1. Saeed AlQarni
-2. Ahmed Albishri
-3. Morgan Rogers
+1. Morgan Rogers
+2. Saeed AlQarni
+3. Ahmed Albishri
 
-## team Name: 
+## Team Name: 
 MedVR 
 
 ## Our Usecase: 
