@@ -2,7 +2,7 @@
 
 ##  VR Hack-a-roo
 
-## team members:
+## Team members:
 1. Morgan Rogers
 2. Saeed AlQarni
 3. Ahmed Albishri
